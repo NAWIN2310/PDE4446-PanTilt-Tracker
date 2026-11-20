@@ -1,0 +1,29 @@
+{
+  "Object_A": {
+    "name": "Tennis Ball",
+    "method": "hsv_circle",
+    "hsv_lower": [25, 80, 70],
+    "hsv_upper": [45, 255, 255],
+    "min_area": 400,
+    "min_circularity": 0.65,
+    "aspect_ratio_range": [0.7, 1.35]
+  },
+  "Object_B": {
+    "name": "Stress-Ball Football",
+    "method": "hsv_circle",
+    "hsv_lower": [0, 100, 70],
+    "hsv_upper": [15, 255, 255],
+    "min_area": 400,
+    "min_circularity": 0.60,
+    "aspect_ratio_range": [0.7, 1.35]
+  },
+  "Object_C": {
+    "name": "Custom Non-Spherical Object",
+    "method": "hsv_oriented_box",
+    "hsv_lower": [95, 90, 60],
+    "hsv_upper": [130, 255, 255],
+    "min_area": 500,
+    "min_circularity": 0.25,
+    "aspect_ratio_range": [0.25, 4.0]
+  }
+}
