@@ -2,19 +2,19 @@
   "Object_A": {
     "name": "Orange Ping-Pong Ball",
     "method": "hsv_circle",
-    "hsv_lower": [4, 90, 90],
-    "hsv_upper": [26, 255, 255],
-    "min_area": 350,
+    "hsv_lower": [5, 130, 100],
+    "hsv_upper": [24, 255, 255],
+    "min_area": 400,
     "min_circularity": 0.55,
     "aspect_ratio_range": [0.65, 1.45]
   },
   "Object_B": {
-    "name": "Stress-Ball Football",
+    "name": "White-Black Patterned Football",
     "method": "hsv_circle",
-    "hsv_lower": [0, 120, 70],
-    "hsv_upper": [15, 255, 255],
-    "min_area": 500,
-    "min_circularity": 0.55,
+    "hsv_lower": [0, 0, 175],
+    "hsv_upper": [180, 55, 255],
+    "min_area": 450,
+    "min_circularity": 0.50,
     "aspect_ratio_range": [0.65, 1.45]
   },
   "Object_C": {
